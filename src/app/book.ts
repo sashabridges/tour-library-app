@@ -4,4 +4,5 @@ export interface Book {
     summary: string;
     author: string;
     review: string;
+    img: string;
   }

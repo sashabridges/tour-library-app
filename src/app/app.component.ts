@@ -7,5 +7,5 @@ import { BooksComponent } from './books/books.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Tour of Books';
+  title = 'Library Tour of My Recently Read Books';
 }

@@ -1,7 +1,11 @@
+
 <div *ngIf="book">
+  <hr>
+  <img ngSrc="{{book.img}}" width="300" height="300" style="float: right;">
     <h2>{{book.name | uppercase}} Details</h2>
-    <hr>
-    <div>id: {{book.id}}</div>
+  
+    
+    <div>ID: {{book.id}}</div>
     <div>
       <div>Book Title: {{book.name}}</div>
       <p>Author: {{book.author}}</p>

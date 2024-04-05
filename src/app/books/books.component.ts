@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { NgFor, NgIf } from '@angular/common';
+import { NgFor, NgIf, NgOptimizedImage } from '@angular/common';
 
 import { Book } from '../book';
 import { BookDetailComponent } from '../book-detail/book-detail.component';
@@ -14,7 +14,8 @@ import { MessageService } from '../message.service';
   imports: [
     NgIf,
     NgFor,
-    BookDetailComponent
+    BookDetailComponent,
+    NgOptimizedImage
   ],
 })
 export class BooksComponent implements OnInit{

@@ -1,6 +1,5 @@
-<h2>My Recently Read Books</h2>
-
-<ul class="books">
+<img ngSrc="../assets/PixabayBooks.jpg" width="640" height="426">
+<ul class="books" style="float: right;">
     <li *ngFor="let book of books">
       <button [class.selected]="book === selectedBook" type="button" (click)="onSelect(book)">
         <span class="badge">{{book.id}}</span>

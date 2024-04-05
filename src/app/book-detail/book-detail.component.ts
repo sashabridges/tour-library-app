@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import {NgIf, UpperCasePipe} from '@angular/common';
+import {NgIf, UpperCasePipe, NgOptimizedImage} from '@angular/common';
 import {FormsModule} from '@angular/forms';
 import { Book } from '../book';
 
@@ -8,7 +8,7 @@ import { Book } from '../book';
   selector: 'app-book-detail',
   templateUrl: './book-detail.component.html',
   styleUrl: './book-detail.component.css',
-  imports: [FormsModule, NgIf, UpperCasePipe],
+  imports: [FormsModule, NgIf, UpperCasePipe, NgOptimizedImage],
 })
 export class BookDetailComponent {
   @Input() book?: Book;
